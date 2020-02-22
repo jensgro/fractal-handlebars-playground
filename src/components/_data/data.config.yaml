@@ -1,0 +1,46 @@
+---
+  hidden: true
+  context:
+    image:
+      w200-1: "http://unsplash.it/200/60"
+      w200-2: "http://unsplash.it/200/100"
+      w120-1: "http://unsplash.it/120/80"
+      w130-1: "http://unsplash.it/130/60"
+
+    placeholder: "Das ist ein Platzhalter"
+    headline:
+      h2: "Das ist eine tolle Headline"
+      h3: "Noch eine Headline aus der Tiefe"
+      subheading: "Subheadline"
+
+    text: 
+      lorem: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+      exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+
+    url: "#"
+    cta: "Call To Action"
+
+    table:
+      thead:
+        th:
+        - title: Table Heading 1
+        - title: Table Heading 2
+        - title: Table Heading 3
+        - title: Table Heading 4
+      tbody:
+        tr:
+        - td:
+          - text: row 1 cell 1
+          - text: row 1 cell 2
+          - text: row 1 cell 3
+          - text: row 1 cell 4
+
+    breadcrumbs:
+      - url: "#"
+        text: Link 1
+      - url: "#"
+        text: Link 2
+      - url: "#"
+        text: Link 3
+    

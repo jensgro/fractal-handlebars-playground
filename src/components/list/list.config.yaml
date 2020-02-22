@@ -1,0 +1,22 @@
+---
+  context:
+    alphabet:
+      - item: "a"
+      - item: "b"
+      - item: "c"
+    numbers:
+      - item: "1"
+      - item: "2"
+      - item: "3"
+      - item: "4"
+  variants:
+    - name: "default"
+      hidden: true
+      
+    - name: "alpha"
+      context:
+        numbers: false
+      
+    - name: "numbers"
+      context:
+        alphabet: false

@@ -1,0 +1,265 @@
+@media screen and (max-width:39.99875em) {
+    .b-news-index .b-content-teaser-item .teaser-label {
+        bottom: 0;
+        width: 107px;
+        left: -107px;
+        top: auto
+    }
+
+    .b-news-index .b-content-teaser-item .inner.inner {
+        background-color: #fefefe
+    }
+}
+
+@media screen and (max-width:39.99875em) {
+    .b-my-view-list .teaser-block-grid .b-content-teaser-item .teaser-label {
+        position: absolute;
+        bottom: 8px
+    }
+
+    .b-my-view-list .teaser-block-grid .b-content-teaser-item .goal,
+    .b-my-view-list .teaser-block-grid .b-content-teaser-item .red-card,
+    .b-my-view-list .teaser-block-grid .b-content-teaser-item .yellow-card {
+        top: 12px;
+        right: 16px
+    }
+}
+
+@media screen and (min-width:40em) and (max-width:63.99875em) {
+    .b-my-view-list .teaser-block-grid .b-content-teaser-item .box {
+        padding: 24px 12px
+    }
+
+    .b-my-view-list .teaser-block-grid .b-content-teaser-item .teaser-title {
+        margin-top: 0
+    }
+
+    .b-my-view-list .teaser-block-grid .b-content-teaser-item .goal,
+    .b-my-view-list .teaser-block-grid .b-content-teaser-item .red-card,
+    .b-my-view-list .teaser-block-grid .b-content-teaser-item .yellow-card {
+        top: 20px;
+        right: 12px
+    }
+}
+
+@media print,
+screen and (min-width:40em) {
+    .b-my-view-list .teaser-block-grid .b-content-teaser-item.m-placeholder.lazyload {
+        min-height: 200px
+    }
+
+    .b-my-view-list .teaser-block-grid .b-content-teaser-item .ratio-wrap:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: url(/static/0.61.1134/img/bgs/stadium-bg.jpg) no-repeat;
+        background-size: contain;
+        content: ""
+    }
+
+    .b-my-view-list .teaser-block-grid .b-content-teaser-item .artdirect .ratiobox-item {
+        top: 50%;
+        left: 50%;
+        width: auto;
+        height: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%)
+    }
+
+    .b-my-view-list .teaser-block-grid .b-content-teaser-item .teaser-label {
+        display: none
+    }
+
+    .b-my-view-list .teaser-block-grid .b-content-teaser-item .teaser-title-link {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5rem
+    }
+}
+
+@media print,
+screen and (min-width:64em) {
+    .b-my-view-list .teaser-block-grid .b-content-teaser-item.m-placeholder.lazyload {
+        min-height: 200px
+    }
+
+    .b-my-view-list .teaser-block-grid .b-content-teaser-item .box {
+        padding: 12px
+    }
+
+    .b-my-view-list .teaser-block-grid .b-content-teaser-item .teaser-title {
+        margin-top: 16px
+    }
+
+    .b-my-view-list .teaser-block-grid .b-content-teaser-item .red-card,
+    .b-my-view-list .teaser-block-grid .b-content-teaser-item .yellow-card {
+        top: 24px;
+        right: 12px
+    }
+
+    .b-my-view-list .teaser-block-grid .b-content-teaser-item .goal {
+        top: 28px;
+        right: 12px
+    }
+}
+
+.b-my-view-list:not(.m-noresult) .no-result {
+    display: none
+}
+
+.b-my-view-list.m-noresult .showmore-btn {
+    display: none
+}
+
+.b-my-view-list .teaser-block-grid {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+.b-my-view-list .teaser-block-grid .b-content-teaser-item {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.b-my-view-list .teaser-block-grid .b-content-teaser-item.m-placeholder.lazyload {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.b-my-view-list .teaser-block-grid .b-content-teaser-item.m-placeholder.lazyload .loader {
+    display: block
+}
+
+.b-my-view-list .teaser-block-grid .b-content-teaser-item.m-active .teaser-title {
+    text-decoration: underline
+}
+
+.b-my-view-list .teaser-block-grid .b-content-teaser-item .box {
+    position: relative
+}
+
+.b-my-view-list .teaser-block-grid .b-content-teaser-item .teaser-title:not(.m-cat) {
+    padding-right: 32px
+}
+
+.b-my-view-list .teaser-block-grid .b-content-teaser-item .teaser-cat {
+    padding-right: 32px
+}
+
+.b-my-view-list .teaser-block-grid .b-content-teaser-item .yellow-card {
+    position: absolute;
+    display: block;
+    width: 12px;
+    height: 20px;
+    border-radius: 2px;
+    background-color: #fde537
+}
+
+.b-my-view-list .teaser-block-grid .b-content-teaser-item .red-card {
+    position: absolute;
+    display: block;
+    width: 12px;
+    height: 20px;
+    border-radius: 2px;
+    background-color: #fa2a3b
+}
+
+.b-my-view-list .teaser-block-grid .b-content-teaser-item .goal {
+    position: absolute;
+    display: block
+}
+
+
+.b-content-teaser-list {
+    overflow: hidden
+}
+
+.b-content-teaser-list .teaser-block-grid-container {
+    padding-right: 0;
+    padding-left: 0;
+    max-width: 72rem;
+    margin-left: auto;
+    margin-right: auto
+}
+
+@media print,
+screen and (min-width:40em) {
+    .b-content-teaser-list .teaser-block-grid-container {
+        padding-right: .375rem;
+        padding-left: .375rem
+    }
+}
+
+.b-content-teaser-list .teaser-block-grid-container>.grid-x>.cell {
+    margin-bottom: .125rem
+}
+
+@media print,
+screen and (min-width:40em) {
+    .b-content-teaser-list .teaser-block-grid-container>.grid-x>.cell {
+        margin-bottom: 1.25rem
+    }
+}
+
+.b-content-teaser-list.m-shows {
+    padding-top: 24px
+}
+
+.b-content-teaser-list.m-shows .ratio-wrap {
+    display: none
+}
+
+.b-content-teaser-list.no-title:not(.collapse-header-space) {
+    margin-top: 32px
+}
+
+.b-content-teaser-list .load-more-container .button {
+    margin-top: 16px
+}
+
+@media screen and (min-width:40em) {
+
+    .b-content-teaser-list.m-missed,
+    .b-content-teaser-list:last-child {
+        margin-bottom: -24px
+    }
+
+    .b-content-teaser-list.no-title:not(.collapse-header-space) {
+        margin-top: 64px
+    }
+
+    .b-content-teaser-list.thema-startseite {
+        margin-top: -32px;
+        padding: 0
+    }
+}
+
+.b-content-teaser-list.m-shows .b-content-teaser-item .box {
+    padding-bottom: 32px
+}
+
+.b-content-teaser-list.m-has-teaser .m-no-content,
+.b-content-teaser-list.m-hide {
+    display: none
+}
+
+.b-content-teaser-list .title.m-btn {
+    padding-right: 64px
+}
+
+.b-content-teaser-list .title .avatar-image {
+    display: none
+}

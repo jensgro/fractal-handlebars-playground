@@ -1,0 +1,45 @@
+{{#radios}}
+<div class="radio">
+  <label for="{{id}}">
+    <input type="radio" id="{{id}}" name="{{name}}" aria-invalid="false" value="{{value}}">
+    <span class="form-control-indicator"></span>
+    {{text}}
+  </label>
+  {{#if detail}}
+  <div class="voting-question-detail">
+    <!--Das Bild:
+                        Ganz normal ausspielen, mit oder ohne Bildunterschrift ist egal
+                        -->
+    <figure id="{{detail.image.id}}" class="{{detail.image.class}}" itemid="{{detail.image.itemid}}" itemprop="image"
+      itemscope="" itemtype="http://schema.org/ImageObject" aria-label="media"
+      data-aspectratio="{{detail.image.aspectratio}}">
+      <div class="image">
+        <link itemprop="url" href="{{detail.image.src}}">
+        <meta itemprop="width" content="{{detail.image.width}}">
+        <meta itemprop="height" content="{{detail.image.height}}">
+        <a href="{{detail.image.link}}" itemprop="url">
+          <img alt="{{detail.image.alttext}}" title="Foto: ard-foto s2-intern/extern, swr" src="{{detail.image.src}}">
+        </a>
+      </div>
+      <figcaption>
+        <a href="#" tabindex="-1" itemprop="url">
+          <span class="figure-caption" itemprop="caption description">
+            {{detail.figcaption.caption}}
+          </span>
+        </a>
+
+        <span class="figure-attribution rs_skip_always">
+          {{#detail.figcaption.copyrightholder}}
+          <span itemprop="copyrightHolder" itemscope="" itemtype="http://schema.org/Organization">
+            <span itemprop="name">{{item}}</span>
+          </span>
+          {{/detail.figcaption.copyrightholder}}
+
+        </span>
+      </figcaption>
+    </figure>
+    <p>{{detail.additionalText}}</p>
+  </div>
+  {{/if}}
+</div>
+{{/radios}}

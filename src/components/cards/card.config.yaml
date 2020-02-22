@@ -1,0 +1,11 @@
+---
+  context:
+    card_title: "A Title"
+    card_text: "Some Text"
+    card_image: "http://unsplash.it/200/60"
+
+    cardheadline: 
+      headline:
+        level: "h3"
+        class: "vf-card__title"
+        text: "Eine Headline aus der Tiefe"

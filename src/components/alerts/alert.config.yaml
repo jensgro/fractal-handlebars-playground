@@ -1,0 +1,54 @@
+---
+  label: Alerts
+  status: ready
+  preview: "@preview--bootstrap"
+  context:
+    alert:
+      content: 'Lorem ipsum dolor sit amet, <a href="javascript:void(0);">consectetur adipiscing</a> elit, sed do eiusmod.'
+
+  variants:
+    - name: default
+      hidden: true
+
+    - name: primary
+      context:
+        alert:
+          class: "alert-primary"
+
+    - name: secondary
+      context:
+        alert:
+          class: "alert-secondary"
+
+    - name: success
+      context:
+        alert:
+          class: "alert-success"
+
+    - name: danger
+      context:
+        alert:
+          class: "alert-danger"
+
+    - name: warning
+      context:
+        alert:
+          class: "alert-warning"
+
+    - name: info
+      context:
+        alert:
+          class: "alert-info"
+
+    - name: light
+      context:
+        alert:
+          class: "alert-light"
+
+    - name: dark
+      context:
+        alert:
+          class: "alert-dark"
+
+
+

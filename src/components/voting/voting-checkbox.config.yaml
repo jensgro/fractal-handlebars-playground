@@ -1,0 +1,15 @@
+---
+  context:
+    checkboxes:
+      - id: "formField_antwort1"
+        name: "formField_antworten"
+        value: "antwort1"
+        text: "Antwort 1"
+      - id: "formField_antwort2"
+        name: "formField_antworten"
+        value: "antwort2"
+        text: "Antwort 2"
+      - id: "formField_antwort3"
+        name: "formField_antworten"
+        value: "antwort3"
+        text: "Antwort 3"

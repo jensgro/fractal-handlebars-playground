@@ -1,0 +1,10 @@
+<article class="card">
+  <img src="{{ card_image }}" alt="" class="card__image">
+  <div class="card__content">
+    {{> @headline cardheadline merge=true}}
+
+    <p class="card__text">
+      {{ card_text }}
+    </p>
+  </div>
+</article>

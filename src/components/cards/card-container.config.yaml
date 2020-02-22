@@ -1,0 +1,42 @@
+---
+  context:
+    cards:
+      - card_title: "A Title 1"
+        card_image: "@data.image.w200-1"
+        card_text: "Lorem ipsum dolor sit amet"
+
+        cardheadline: 
+          headline:
+            level: "h3"
+            class: "card__headline"
+            text: "Eine Headline aus der Tiefe"
+
+      - card_title: "A Title 2"
+        card_image: "@data.image.w120-1"
+        card_text: "Lorem ipsum dolor sit amet"
+
+        cardheadline: 
+          headline:
+            level: "h2"
+            class: "card__headline"
+            text: "Noch eine Headline aus der Tiefe"
+
+      - card_title: "A Title 3"
+        card_image: "@data.image.w200-2"
+        card_text: "Lorem ipsum dolor sit amet"
+
+        cardheadline: 
+          headline:
+            level: "h3"
+            class: "card__headline"
+            text: "Noch eine Überschrift"
+
+      - card_title: "A Title 4"
+        card_image: "@data.image.w130-1"
+        card_text: "Lorem ipsum dolor sit amet"
+
+        cardheadline: 
+          headline:
+            level: "h2"
+            class: "card__headline"
+            text: "Eine Headline aus der Tiefe"

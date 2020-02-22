@@ -1,0 +1,19 @@
+---
+  status: "wip"
+  context:
+    text: "Ich bin ein toller Button"
+  variants:
+    - name: "default"
+    - name: "primary"
+      context:
+        class: "btn--primary"
+        text: "primary Button"
+    - name: "secondary"
+      context:
+        class: "btn--secondary"
+        text: "secondary Button"
+    - name: "cta"
+      context:
+        class: "btn--cta"
+        text: "cta Button"
+                    

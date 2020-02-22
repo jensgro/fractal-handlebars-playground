@@ -1,0 +1,37 @@
+<article class="b-content-teaser-item cell m-showmore-item">
+    <div class="inner m-clickarea">
+        <div class="ratio-wrap">
+            <div class="b-ratiobox">
+                <picture class="artdirect">
+                    <source class="m-8-9"
+                        srcset="{{image.w240}} 240w 270h, {{image.w640}} 640w 720h"
+                        media="(x)" sizes="358px">
+                    <source class="m-16-9"
+                        srcset="{{image.w384}} 384w 216h"
+                        media="(min-width: 1px)" sizes="358px">
+                    <img class="preview-image ratiobox-item js-artdirect lazyautosizes lazyloaded"
+                        src="{{image.preview}}" data-sizes="auto"
+                        alt="{{image.alttext}}" data-srcset="" sizes="358px">
+                </picture>
+            </div>
+        </div>
+        <div class="box m-tags">
+            <h3 class="teaser-title m-cat">
+                <span class="teaser-cat ">
+                    <span class="teaser-cat-category">
+                        {{category}} </span>
+                </span>
+                <span class="visuallyhidden"> - </span>
+                <a href="#"
+                    title="hier kommt ein Text hin"
+                    class="teaser-title-link m-clickarea-action js-track-click">
+                    {{headline}} </a>
+            </h3>
+            {{#teasertext}}
+            <p class="teaser-text">{{teasertext}}</p>
+            {{/teasertext}}
+
+        </div>
+
+    </div>
+</article>

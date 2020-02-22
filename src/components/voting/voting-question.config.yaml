@@ -1,0 +1,170 @@
+---
+  status: "wip"
+  notes: "# ToDo \n Die Input-Elemente sind in die Labels gewrappt. Ist das so sinnvoll? Machen wir das sonst anders? Am Besten vereinheitlichen!"
+  preview: "@preview--formquiz"
+
+  context:
+    image:
+      id: "asset-bild-fuer-bildbox-100"
+      itemid: "bild-fuer-bildbox-100"
+      class: "asset rs_skip_always figure-left"
+      aspectratio: "1x1"
+      src: "https://trendblog.euronics.de/wp-content/uploads/2017/01/Seitenverhaeltnis_16_9.jpg"
+      alttext: "Bild mit gesperrter Version 1x1 XL - bitte nicht ändern (Foto: ard-foto s2-intern/extern, swr)"
+      width: "1440"
+      height: "1440"
+
+      figcaption:
+        caption: "Bildunterschrift"
+        copyrightholder:
+          - item: "ard-foto s2-intern/extern"
+          - item: "swr"
+
+  variants:
+    - name: "default"
+      hidden: true
+    - name: "checkbox"
+      context:
+        question:
+          headline: "Frage mit Antwortmöglichkeiten"
+          text: "Fragetext der Frage 1"
+
+        checkboxes:
+          - id: "formField_antwort1"
+            name: "formField_antworten"
+            value: "antwort1"
+            text: "Antwort 1"
+          - id: "formField_antwort2"
+            name: "formField_antworten"
+            value: "antwort2"
+            text: "Antwort 2"
+          - id: "formField_antwort3"
+            name: "formField_antworten"
+            value: "antwort3"
+            text: "Antwort 3"
+
+        answers:
+          - class: "answer-checked"
+            label: "Antwort 1"
+            voting: "57"
+          - label: "Antwort 2"
+            voting: "24"
+          - label: "Antwort 3"
+            voting: "19"
+
+    - name: "checkbox-with-detail"
+      label: "Checkbox und Detailinfos"
+      context:
+        question:
+          headline: "Frage mit Antwortmöglichkeiten"
+          text: "Fragetext der Frage 2"
+
+        checkboxes:
+          - id: "formField_antwort21"
+            name: "formField_antworten"
+            value: "antwort1"
+            text: "Antwort 1"
+
+            detail:
+              additionalText: "@votingdata.additionalText-left"
+              image: "@votingdata.image-links-1"
+
+          - id: "formField_antwort22"
+            name: "formField_antworten"
+            value: "antwort2"
+            text: "Antwort 2"
+
+            detail:
+              additionalText: "Weiterer Text mit Infos zur Antwort? Der Text kann auch ruhig etwas länger sein. Jeder aber nur einen (!) Absatz!"
+              image: "@votingdata.image-right-1"
+
+          - id: "formField_antwort23"
+            name: "formField_antworten"
+            value: "antwort3"
+            text: "Antwort 3"
+            detail:
+              additionalText: "@votingdata.additionalText-center"
+              image: "@votingdata.image-center-1"
+
+        answers:
+          - class: "answer-checked"
+            label: "Antwort 1"
+            voting: "57"
+          - label: "Antwort 2"
+            voting: "24"
+          - label: "Antwort 3"
+            voting: "19"
+
+    - name: "radio"
+      context:
+        question:
+          headline: "Frage mit Antwortmöglichkeiten"
+          text: "Fragetext der Frage 3"
+
+        radios:
+          - id: "formField_antwort31"
+            name: "formField_antworten"
+            value: "antwort31"
+            text: "Antwort 1"
+          - id: "formField_antwort32"
+            name: "formField_antworten"
+            value: "antwort32"
+            text: "Antwort 2"
+          - id: "formField_antwort33"
+            name: "formField_antworten"
+            value: "antwort33"
+            text: "Antwort 3"
+          - id: "formField_antwort34"
+            name: "formField_antworten"
+            value: "antwort34"
+            text: "Antwort 4"
+
+        answers:
+          - class: "answer-checked"
+            label: "Antwort 1"
+            voting: "8"
+          - label: "Antwort 2"
+            voting: "44"
+          - label: "Antwort 3"
+            voting: "29"
+          - label: "Antwort 4"
+            voting: "19"
+
+    - name: "radio-with-detail"
+      label: "Radiobuttons und Detailinfos"
+      context:
+        question:
+          headline: "Frage mit Antwortmöglichkeiten"
+          text: "Fragetext der Frage 6"
+
+        radios:
+          - id: "formField_antwort61"
+            name: "formField_antworten"
+            value: "antwort1"
+            text: "Antwort 1"
+            detail: "@votingdata.detail-links"
+
+          - id: "formField_antwort62"
+            name: "formField_antworten"
+            value: "antwort2"
+            text: "Antwort 2"
+            detail: "@votingdata.detail-rechts"
+
+          - id: "formField_antwort63"
+            name: "formField_antworten"
+            value: "antwort3"
+            text: "Antwort 3"
+            detail:
+              additionalText: "@votingdata.additionalText-simple"
+        answers:
+          - class: "answer-checked"
+            label: "Antwort 1"
+            voting: "17"
+            detail: "@votingdata.detail-links"
+          - label: "Antwort 2"
+            voting: "64"
+            detail: "@votingdata.detail-rechts"
+          - label: "Antwort 3"
+            voting: "19"
+            detail:
+              additionalText: "@votingdata.additionalText-simple"

@@ -1,0 +1,47 @@
+{
+  "name": "fractal-handlebars-test",
+  "version": "1.0.0",
+  "description": "Testing the pattern library fractal with handlebars as template engine.",
+  "main": "index.js",
+  "scripts": {
+    "installbs": "gulp copybs",
+    "sync": "gulp sync",
+    "build:css": "gulp css",
+    "build:bs4": "gulp bs",
+    "start": "gulp css && gulp bs && fractal start --sync",
+    "watch": "gulp watch",
+    "clear": "gulp clear"
+  },
+  "fractal": {
+    "main": "fractalfile.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.7.1",
+    "@frctl/fractal": "^1.2.1-beta.1",
+    "@frctl/handlebars": "^1.1.5",
+    "autoprefixer": "^9.7.1",
+    "babelify": "^10.0.0",
+    "bootstrap": "^4.3.1",
+    "browserify": "^16.5.0",
+    "cssnano": "^4.1.10",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "handlebars": "^4.5.3",
+    "handlebars-helper-repeat": "^2.0.0",
+    "handlebars-helpers": "^0.10.0",
+    "node-notifier": "^6.0.0",
+    "node-sass": "^4.13.0",
+    "nswatch": "^0.2.0",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {},
+  "keywords": []
+}

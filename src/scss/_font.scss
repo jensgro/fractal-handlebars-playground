@@ -1,0 +1,67 @@
+/*
+----------------------------------------
+family()
+----------------------------------------
+Get a font-family stack
+----------------------------------------
+*/
+
+@mixin u-font-family($family) {
+  font-family: ff($family);
+}
+
+/*
+----------------------------------------
+size()
+----------------------------------------
+Get a normalized font-size in rem from
+a family and a type size in either
+system scale or project scale
+----------------------------------------
+*/
+
+@mixin u-font-size($family, $scale) {
+  font-size: font-size($family, $scale);
+}
+
+/*
+----------------------------------------
+font()
+----------------------------------------
+Get a font-family stack
+AND
+Get a normalized font-size in rem from
+a family and a type size in either
+system scale or project scale
+----------------------------------------
+*/
+
+@mixin u-font($family, $scale) {
+  font-family: ff($family);
+  font-size: font-size($family, $scale);
+}
+
+// Outputs line-height
+
+@mixin u-font-weight($value...) {
+  $important: null;
+  @if has-important($value) {
+    $value: remove($value, "!important");
+    $important: " !important";
+  }
+  font-weight: get-uswds-value(font-weight, $value...) #{$important};
+}
+
+// Outputs line-height
+
+@mixin u-line-height($value...) {
+  $value: unpack($value);
+  $important: null;
+  @if has-important($value) {
+    $value: remove($value, "!important");
+    $important: " !important";
+  }
+  $family: nth($value, 1);
+  $scale: nth($value, 2);
+  line-height: lh($family, $scale) #{$important};
+}

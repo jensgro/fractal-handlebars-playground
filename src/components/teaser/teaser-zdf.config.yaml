@@ -1,0 +1,44 @@
+---
+  context:
+    image:
+      w240: "https://www.zdf.de/assets/mike-mohring-120~240x270?cb=1581081337040"
+      w640: "https://www.zdf.de/assets/mike-mohring-120~640x720?cb=1581081337040"
+      w384: "https://www.zdf.de/assets/mike-mohring-120~384x216?cb=1581081337040"
+      preview: "https://www.zdf.de/assets/mike-mohring-120~2400x1350?cb=1581081337040"
+      alttext: "Archiv: Mike Mohring am 07.02.2020 in Berlin"
+    category: "Thüringen"
+    headline: "Mohring zieht sich von CDU-Vorsitz zurück"
+    teasertext: ""
+
+
+  variants:
+    - name: "default"
+      hidden: true
+
+    - name: "nr1"
+
+    - name: "nr2"
+      context:
+        image:
+          w240: "https://www.zdf.de/assets/thomas-kemmerich-fdp-100~240x270?cb=1581348702082"
+          w640: "https://www.zdf.de/assets/thomas-kemmerich-fdp-100~640x720?cb=1581348702082"
+          w384: "https://www.zdf.de/assets/thomas-kemmerich-fdp-100~384x216?cb=1581348702082"
+          preview: "https://www.zdf.de/assets/thomas-kemmerich-fdp-100~2400x1350?cb=1581348702082"
+          alttext: "Archiv: Thomas Kemmerich (FDP), kommt in den Thüringer Landtag zum Gespräch mit der Landtagspräsidentin."
+        category: "Polit-Chaos in Thüringen"
+        headline: "Kemmerich tritt als Ministerpräsident zurück"
+        teasertext: ""
+
+    - name: "nr3"
+      context:
+        image:
+          w240: "https://www.zdf.de/assets/teletext-dpa-image-christine-lieberknecht-cdu-ehemalige-ministerpraesidentin-100~240x270?cb=1582044534706"
+          w640: "https://www.zdf.de/assets/teletext-dpa-image-christine-lieberknecht-cdu-ehemalige-ministerpraesidentin-100~640x720?cb=1582044534706"
+          w384: "https://www.zdf.de/assets/teletext-dpa-image-christine-lieberknecht-cdu-ehemalige-ministerpraesidentin-100~384x216?cb=1582044534706"
+          preview: "https://www.zdf.de/assets/teletext-dpa-image-christine-lieberknecht-cdu-ehemalige-ministerpraesidentin-100~2400x1350?cb=1582044534706"
+          alttext: "Christine Lieberknecht (CDU), ehemalige Ministerpräsidentin."
+        category: "Regierungssuche in Thüringen"
+        headline: "Lieberknecht: Keine Übergangsregierung "
+        teasertext: ""
+
+

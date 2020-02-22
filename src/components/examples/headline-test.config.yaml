@@ -1,0 +1,10 @@
+---
+  context:
+    h1content:
+       headline:
+          level: "h1"
+          text: "h1 Überschrift"
+    h2content-1:
+      headline:
+        text: "Der Headline-Level wurde nicht gesetzt!"
+    para1: "@data.text"

@@ -1,0 +1,38 @@
+---
+  status: "note"
+  notes: "# Für Entwickler \n Der default-Zustand ist bewusst ausgeblendet und als **h2** dupliziert, damit die Referenzierung innerhalb von Templates intuitiver geht. Einfacher wäre es, das Handle **default** in **h2** umzubenennen. Das geht aber leider nicht."
+  collated: true
+  variants: 
+    - name: "default"
+      label: "h2"
+      hidden: true
+    - name: "h1"
+      label: "h1"
+      context:
+        headline:
+          level: "h1"
+          text: "h1 heading"
+    - name: "h2"
+      label: "h2"
+      context:
+        headline:
+          level: "h2"
+          text: "h2 heading"
+    - name: "h3"
+      label: "h3"
+      context:
+        headline:
+          level: "h3"
+          text: "h3 Heading"
+    - name: "h4"
+      label: "h4"
+      context:
+        headline:
+          level: "h4"
+          text: "h4 Heading"
+    - name: "h5"
+      label: "h5"
+      context:
+        headline:
+          level: "h5"
+          text: "h5 Heading"          

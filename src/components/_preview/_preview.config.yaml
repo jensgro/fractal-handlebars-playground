@@ -1,0 +1,14 @@
+---
+  context:
+    styles: true
+    bootstrap: false
+  variants:
+    - name: "default"
+    - name: "bootstrap"
+      context:
+        bootstrap: true
+        styles: false
+    - name: "all"
+      context:
+        bootstrap: true
+        styles: true
