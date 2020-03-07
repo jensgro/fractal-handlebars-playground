@@ -1,0 +1,39 @@
+---
+  label: "Liste von Mediaelementen"
+  context:
+    mediaList:
+      - mediaLeft: 
+          modificator: ""
+          url: "#"
+          image: "@data.image.w200-1"
+        mediaRight: false
+        headline: "@data.headline.h2"
+        content:
+          - text: "@data.text.deutsch1"
+      - mediaLeft: false
+        mediaRight: 
+          modificator: ""
+          url: "#"
+          image: "@data.image.w200-2"  
+        headline: "@data.headline.h2"
+        content:
+          - text: "@data.text.deutsch2"
+      - mediaLeft: 
+          modificator: ""
+          url: "#"
+          image: "@data.image.w200-1"
+        mediaRight: false
+        headline: "@data.headline.h2"
+        content:
+          - text: "@data.text.deutsch3"
+      - mediaLeft: false
+        mediaRight: 
+          modificator: ""
+          url: "#"
+          image: "@data.image.w200-2"  
+        headline: "@data.headline.h2"
+        content:
+          - text: "@data.text.deutsch4"
+
+
+          
