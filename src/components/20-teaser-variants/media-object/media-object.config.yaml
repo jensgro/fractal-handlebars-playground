@@ -1,7 +1,32 @@
 ---
   context:
-    mediaLeft: "@data.mediaLeft"
-    mediaRight: "@data.mediaRight"
-    nestedMedia: "@data.nestedMedia"
-    heading: "@data.heading"
-    text: "@data.text"
+    mediaLeft: 
+      modificator: ""
+      url: "#"
+      image: "@data.image.w200-1"
+    mediaRight: 
+      modificator: ""
+      url: "#"
+      image: "@data.image.w200-2"  
+    headline: "@data.headline.h2"
+    content:
+      - text: "@data.text.deutsch4"
+
+  variants:
+    - name: "default"
+      hidden: true
+    - name: "left"
+      context:
+        mediaRight: false
+    - name: "right"
+      context:
+        mediaLeft: false
+
+    - name: "double"
+      context:
+        content:
+          - text: "@data.text.deutsch3"
+          - text: "@data.text.deutsch5"
+
+
+
