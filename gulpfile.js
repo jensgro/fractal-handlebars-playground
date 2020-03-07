@@ -112,7 +112,7 @@ async function watchFiles() {
 }
 // =============
 // gulp watch
-exports.watch = series(watchFiles);
+exports.watch = series(fractalStart, watchFiles);
 
 // === Copy Bootstrap from node_modules as a working-copy
 // gulp copybs
