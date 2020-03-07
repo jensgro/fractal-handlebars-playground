@@ -44,3 +44,22 @@
       - url: "#"
         text: Link 3
     
+    cite:
+      leistungsschwein: 
+        text: "Sagt die faule Sau zum Leistungsschwein, Du wirst vor mir ein Schnitzel sein."
+        author: "Klaus Eckel"
+      diplomatie:
+        text: "Diplomatie ist die Kunst, mit hundert Worten zu verschweigen, was man mit einem einzigen Wort sagen könnte."
+        author: "Saint-John Perse"
+      pelzig:
+        text: "Warum dieses Jahr aufhängen, wenn es nächstes Jahr noch  bessere Gründe gibt?"
+        author: "Erwin Pelzig"
+      goethe:
+        text: "Gerne der Zeiten gedenk ich, da alle Glieder gelenkig - bis auf eins. Doch die Zeiten sind vorüber, steif geworden alle Glieder - bis auf eins."
+        author: "Johann Wolfgang von Goethe"
+      hirschhausen:
+        text: "Shit happens. Mal bist Du die Taube, mal das Denkmal."
+        author: "Eckhard v. Hirschhausen"
+
+
+
