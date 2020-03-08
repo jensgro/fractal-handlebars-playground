@@ -1,0 +1,9 @@
+---
+  preview: "@preview--bootstrap"
+  variants:
+    - name: "default"
+      hidden: true
+    - name: "well"
+      context:
+        bs-card:
+          modifier: "text-white bg-secondary my-5 py-4 text-center"
