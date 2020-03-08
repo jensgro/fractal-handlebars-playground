@@ -1,10 +1,10 @@
 # Eine Webseite modular in einer Pattern Library aufbauen
 
-Dieses Projekt ist ein Grundlage, um mittels der Pattern Library [Fractal](https://fractal.build) eine Website zu konstruieren. 
+Dieses Projekt ist ein Grundlage, um mittels der Pattern Library [Fractal](https://fractal.build) eine Website zu konstruieren.
 
 ## Templatesystem
 
-Um sich die Arbeit zu erleichtern und unterschiedliche Varianten mit unterschiedlichen Inhalten schnell erstellen zu können, bietet sich die Verwendung eines Templatesystems an. In dieser Demo ist [Handlebars](https://handlebarsjs.com/) installiert. 
+Um sich die Arbeit zu erleichtern und unterschiedliche Varianten mit unterschiedlichen Inhalten schnell erstellen zu können, bietet sich die Verwendung eines Templatesystems an. In dieser Demo ist [Handlebars](https://handlebarsjs.com/) installiert.
 
 ## Sass
 
@@ -42,47 +42,47 @@ Dadurch werden alle SCSS-Dateien von Bootstrap in den lokalen SCSS-Ordner kopier
 
 Auf die Bootstrap-Dateien kann selbstverständlich auch aus der anderen SCSS-Datei referenziert werden. Das Basis-CSS "Reboot" ist sicherlich auch ausserhalb von Bootstrap interessant, ebenso das Grid-System.
 
-Der Watcher ist so konfiguriert, dass er jede Änderung in einer SCSS-Datei innerhalb des gesamten Projektes erkennt (also innerhalb von "src"). Somit ist es Sache des Entwicklers zu entscheiden, ob die SCSS-Dateien an einem zentralen Ort oder immer zusammen mit der HTML/Handlebars-Datei abgelegt werden sollen. 
+Der Watcher ist so konfiguriert, dass er jede Änderung in einer SCSS-Datei innerhalb des gesamten Projektes erkennt (also innerhalb von "src"). Somit ist es Sache des Entwicklers zu entscheiden, ob die SCSS-Dateien an einem zentralen Ort oder immer zusammen mit der HTML/Handlebars-Datei abgelegt werden sollen.
 
 ## Die wichtigsten Befehle auf der Kommandozeile
 
 Das gesamte Projekt installieren/initialisieren.
 
 ````
-npm i 
-```` 
-Die SCSS-Dateien von Bootstrap ins lokale Verzeichnis kopieren. Muss nur einmal (am Anfang) ausgeführt werden. 
+npm i
+````
+Die SCSS-Dateien von Bootstrap ins lokale Verzeichnis kopieren. Muss nur einmal (am Anfang) ausgeführt werden.
 ````
 npm run installbs
-```` 
+````
 Sollte Bootstrap eine Aktualisierung erfahren, bietet sich diese Kombination aus zwei Befehlen an:
 
 ````
 npm update bootstrap && npm run installbs
-```` 
+````
 Diese Codezeile sollte die Basis der normalen Arbeit sein:
 ````
 npm run sync
-```` 
+````
 Damit wird Fractal mit einem Server gestartet. Fracatal achtet auf Änderungen an den HTML-, Handlebars- und Data-Files. Und ein zusätzlicher Watcher achtet auf SCSS-Änderungen. Beides gibt es auch als separate Tasks, die dann in zwei separaten Terminalfenstern ausgeführt werden müssen:
 
 ````
 npm run start
-```` 
+````
 ````
 npm run watch
-```` 
+````
 Sollen ohne einen Watcher einfach die ``styles.css`` oder die Bootstrap-CSS ausgegeben werden, gibt es folgende Befehle:
 ````
 npm run build:css
-```` 
+````
 ````
 npm run build:bs4
-```` 
+````
 Wenn das Ausgabeverzeichnis ``dist`` gelöscht werden soll, kann dies auch mittels eines kleinen Befehls geschehen:
 ````
 npm run clear
-```` 
+````
 
 ## Alternativen?
 
@@ -91,3 +91,22 @@ Ich habe im Jahr 2019 zwei weitere Pattern-Libraries getestet und meine ersten, 
 
 - [Malvid-Experiment](https://github.com/jensgro/malvid-experiment)
 - [UIEngine-Test](https://github.com/jensgro/uiengine-test)
+
+## Wichtige Links
+
+- [Fractal](https://fractal.build)
+- [Handlebars](https://handlebarsjs.com/)
+
+### Allgemeine Links
+
+- [Farbverläufe erstellen](http://www.colorzilla.com/gradient-editor/) - mit Codeausgabe
+- [animate.css](https://daneden.github.io/animate.css/) - fertige Animationen zum Kopieren
+- [Frontend Development Resources](http://jensgro.github.io/Frontenddevelopment-Resources/) -  meine Linksammlung von wichtigen Tools und Quellen
+- [The CSS-Mindset](https://mxb.dev/blog/the-css-mindset/)
+- [BEM 101](https://css-tricks.com/bem-101/) - eine Übersicht über die BEM-Methodologie
+
+### Blindtexte und Platzhalterbilder
+-   Blindtexte können Sie sich im [Blindtextgenerator](http://www.blindtextgenerator.de/) in unterschiedlichen Sprachen zusammenstellen. Auch in Deutsch!
+- Eine Auswahl an kostenlosen Platzhalterbildern für Entwürfe bietet [meine Codepen-Seite](https://codepen.io/jensgro/full/HFnsE).
+- Auf Codepen finden Sie [unzusammenhängende Blindtexte](https://codepen.io/jensgro/pen/yactj?editors=1000) und einen sehr alten Artikel von mir als Blindtext: [Webseiten sind keine Gemälde](https://codepen.io/jensgro/pen/vFagC?editors=1000).
+- SVG-Illustrationen finden Sie auf [undraw](https://undraw.co/illustrations), SVG-Icons habe ich ein paar [auf Codepen](https://codepen.io/jensgro/pen/yzryMN) gesammelt.
