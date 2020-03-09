@@ -2,6 +2,7 @@
   context:
     styles: true
     bootstrap: false
+
   variants:
     - name: "default"
     - name: "bootstrap"

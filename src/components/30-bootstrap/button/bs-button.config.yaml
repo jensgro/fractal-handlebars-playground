@@ -1,0 +1,14 @@
+---
+  preview: "@preview--bootstrap"
+  context:
+    bs-button:
+      link: false
+      button: true
+      text: "Call to Action!"
+  variants:
+    - name: "link"
+      context:
+        bs-button:
+          text: "Call to Arms!"
+          modifier: "btn-primary"
+          url: "#"

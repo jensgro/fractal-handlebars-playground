@@ -8,7 +8,8 @@
     "sync": "gulp sync",
     "build:css": "gulp css",
     "build:bs4": "gulp bs",
-    "start": "gulp css && gulp bs && fractal start --sync",
+    "fractal": "fractal start --sync",
+    "start": "gulp css && gulp bs && gulp watch",
     "watch": "gulp watch",
     "clear": "gulp clear"
   },

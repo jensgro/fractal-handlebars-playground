@@ -1,0 +1,6 @@
+---
+  preview: "@preview--bootstrap"
+  context:
+    bs-image:
+      src: "http://placehold.it/900x400"
+      modifier: "rounded mb-4 mb-lg-0"

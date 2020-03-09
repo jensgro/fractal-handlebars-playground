@@ -1,0 +1,7 @@
+---
+  preview: "@preview--bootstrap"
+  context:
+    bs-headline:
+      level: "h1"
+      class: "font-weight-light"
+      text: "Business Name or Tagline"
