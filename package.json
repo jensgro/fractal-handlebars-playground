@@ -37,7 +37,7 @@
     "handlebars": "^4.5.3",
     "handlebars-helper-repeat": "^2.0.0",
     "handlebars-helpers": "^0.10.0",
-    "node-notifier": "^6.0.0",
+    "node-notifier": "^8.0.1",
     "node-sass": "^7.0.0",
     "nswatch": "^0.2.0",
     "vinyl-buffer": "^1.0.1",
